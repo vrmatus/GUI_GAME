@@ -1,0 +1,28 @@
+
+One Two Ten First Game
+
+
+Adding external acm.jar library:
+
+***At start please make sure to add the “acm.jar” external library jar.
+1. Highlight project header 
+2. Select properties
+3. Select Java Build Path
+4. Choose Library Option at top
+5. Select Add External Jars
+6. Browse to provided acm.jar location on local machine
+7. Select Open
+8. Select Ok
+
+This would complete installation of external acm.jar external library jar.
+
+Playing Game:
+
+* The game is a two-player each taking turns.  
+* The objective is to either select 1 token or 2 tokens at player’s turn aiming to get ten tokens to win over opponent.  
+* The ready button will be active before player selects token option.
+* The go button will be active when player has selected token option.
+
+So now let’s play ONE TWO TEN FIRST!!
+
+

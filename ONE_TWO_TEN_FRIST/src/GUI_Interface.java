@@ -107,7 +107,7 @@ public class GUI_Interface extends Program{
 		goButton.setActionCommand("go");
 		ImageIcon Gogo = new ImageIcon("Button-Go.png"); 
 		goButton.setIcon(Gogo);
-		console.add(goButton, 170, 290);
+		console.add(goButton, 150, 290);
 		goButton.setVisible(false);
 		
 		// Setting up "readyButton" and placing image   
@@ -115,7 +115,7 @@ public class GUI_Interface extends Program{
 		readyButton.setActionCommand("go");
 		ImageIcon ready = new ImageIcon("ready_button.jpg"); 
 		readyButton.setIcon(ready);
-		console.add(readyButton, 170, 290);
+		console.add(readyButton, 150, 290);
 		readyButton.setVisible(true);
 		
 		// Setting up "addOne" button 
@@ -194,6 +194,9 @@ public class GUI_Interface extends Program{
 		// Listening for go button event
 		if(Cmd.equals("go")){
 			
+			goButton.setVisible(false);
+			readyButton.setVisible(true);
+			
 			// Calling upon move method to track player and pile sum
 			int p = Integer.parseInt(playerField.getText());       
 			game.move(p, playedAmount);
@@ -219,6 +222,7 @@ public class GUI_Interface extends Program{
 				chooseLabel.setVisible(false);
 				noteLabel.setVisible(false);
 				tokenImage.setVisible(false);
+				readyButton.setVisible(false);
 				
 				// Displaying winning banner
 				youWon.setVisible(true);  
