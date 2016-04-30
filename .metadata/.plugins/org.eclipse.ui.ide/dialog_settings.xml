@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/Users/VicMat/Desktop/ONE_TWO_TEN_GUI"/>
+			<item value="/Users/VicMat/Desktop/GUI_OneTwoTen Rev 2"/>
+			<item value="/Users/VicMat/Desktop/GitHubShareFolder/GUI_GAME/ONE_TWO_TEN_LAST_REV/GUI_OneTwoTen Rev 2"/>
+			<item value="/Users/VicMat/Desktop/SER 215 2016 Spring B/GUI_OneTwoTen Rev 2"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+</section>

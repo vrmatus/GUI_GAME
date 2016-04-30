@@ -1,0 +1,36 @@
+import java.awt.EventQueue;
+import java.util.Scanner;
+
+
+public class Main_Test {
+
+	public static void main(String[] args) {
+		
+		System.out.println("I am in main");
+		do {
+
+	        EventQueue.invokeLater(new Runnable()
+	        {
+	            @Override
+	            public void run()
+	            {
+	                new GUI_Interface();
+	                new GUI_Interface().init();
+	            }
+	        });
+	        
+			    //Prompt the user whether to play again
+	       Scanner playAgain = new Scanner(System.in);
+			   System.out.print("Play again (y/n)? ");
+			   char ans = playAgain.next().charAt(0);
+			   if (ans != 'y' && ans != 'Y') {
+			      System.out.println("Bye!");
+			      System.exit(0);  // terminate the program
+			   }
+	        
+	        
+	} while (true); 
+
+	}
+
+}
