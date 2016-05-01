@@ -33,6 +33,18 @@ public class OneTwoTen {
 				
 			}// end of conditional amount if
 			
+			if(pile == 9 && amount == 2 ){
+				
+				if(turn==1){
+					turn=2;
+				}
+				else{
+					turn=1;
+				}
+				
+			 return true;
+			}
+			
 			else{
 				return false;          // if errors = false
 			}// end of else
